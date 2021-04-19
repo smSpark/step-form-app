@@ -1,0 +1,21 @@
+@import "../../styles/colors";
+@import "../../styles/vars";
+
+.link_button {
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 150%;
+  font-family: inherit;
+  background-color: transparent;
+  border: none;
+  color: $link-color;
+  transition: color .3s $bezier-show;
+  text-decoration: underline;
+
+  &:focus,
+  &:active,
+  &:hover {
+    outline: none;
+    color: darken($link-color, 10%);
+  }
+}

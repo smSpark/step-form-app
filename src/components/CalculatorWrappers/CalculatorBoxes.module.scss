@@ -1,0 +1,60 @@
+@import "../../styles/vars";
+@import "../../styles/colors";
+
+.wrapper {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  gap: 1rem
+}
+
+.wrapper_template {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 0.3rem;
+  background-color: white;
+  box-shadow: $defult-shadow;
+}
+
+.wrapper_buttons {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+}
+
+.step {
+  color: $second-font-color;
+  font-size: 1.3rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: #c7e3fb;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 2rem;
+  
+}
+
+.left {
+  align-items: flex-start;
+}
+
+.center {
+  align-items: center;
+}
+
+.right {
+  align-items: flex-end
+}
